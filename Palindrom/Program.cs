@@ -39,6 +39,11 @@ namespace Palindrom
 
 
         // Dessa metoder nedanför har vi skapat själva! ===================
+        /// <summary>
+        /// Rensa en sträng av samtliga whitespace tecken
+        /// </summary>
+        /// <param name="text"></param>
+        /// <returns></returns>
         static string TaBortMellanslagOchSkiljetecken(string text)
         {
             string renad = "";
